@@ -20,10 +20,10 @@
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "My cool site"
+  title = "MyShtick"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "This is my cool site"
+  description = "Welcome, to the world of my notes and wandering thoughts."
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = []
@@ -45,7 +45,7 @@
       logo = ""
       # title name
       # 标题名称
-      name = "My cool site"
+      name = "MyShtick"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
@@ -68,7 +68,7 @@
     hugo = true
     # whether to show copyright info
     # 是否显示版权信息
-    copyright = true
+    copyright = false
     # whether to show the author
     # 是否显示作者
     author = true
@@ -113,7 +113,7 @@
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "My cool site"
+    title = "MyShtick"
     # whether to omit favicon resource links
     # 是否隐藏网站图标资源链接
     noFavicon = false
@@ -133,7 +133,7 @@
   # Search config
   # 搜索配置
   [params.search]
-    enable = false
+    enable = true
     # type of search engine ["lunr", "algolia"]
     # 搜索引擎的类型 ["lunr", "algolia"]
     type = "lunr"
@@ -175,13 +175,13 @@
       gravatarEmail = ""
       # URL of avatar shown in home page
       # 主页显示头像的 URL
-      avatarURL = ""
+      avatarURL = "lib/images/myshtick_logo_smallest.jpg"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "This is my cool site"
+      subtitle = "Welcome, to the world of my notes and wandering thoughts."
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
@@ -201,8 +201,8 @@
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
-    GitHub = ""
-    Linkedin = ""
+    GitHub = "https://github.com/nitinrawatiitd"
+    Linkedin = "www.linkedin.com/in/nitinrawatiitd"
     Twitter = ""
     Instagram = ""
     Facebook = ""
@@ -273,7 +273,7 @@
     Plume = ""
     HackTheBox = ""
     RootMe= ""
-    Email = ""
+    Email = "nitin.rawat.iitd@gmail.com"
     Phone = ""
     RSS = ""
 
@@ -331,7 +331,7 @@
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
     [params.page.math]
-      enable = false
+      enable = true
       # default inline delimiter is $ ... $ and \( ... \)
       # 默认行内定界符是 $ ... $ 和 \( ... \)
       inlineLeftDelimiter = ""
@@ -376,20 +376,20 @@
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
-      Whatsapp = false
+      Linkedin = true
+      Whatsapp = true
       Pinterest = false
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = false
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Blogger = false
       Baidu = false
       Odnoklassniki = false
